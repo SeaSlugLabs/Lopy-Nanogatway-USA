@@ -5,4 +5,4 @@ I would like to share the code after Going through a lot and finally nailing it 
 
 We will setup a LoPy as the Gateway to TTN and other LoPy as a Node using ABP authentication.
 
-Follow the guide on my [Blog](https://seasluglabs.io/blogs/guides/the-things-network-us-setup-with-lopy-as-a-nano-gateway-and-lopy-node)  and keep supporting us buying from our store.
+Follow the guide on my [Blog](https://seasluglabs.io/blogs/guides/the-things-network-us-setup-with-lopy-as-a-nano-gateway-and-lopy-node)  and keep supporting us by buying from our store.
