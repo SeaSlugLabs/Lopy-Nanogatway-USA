@@ -9,9 +9,9 @@ lora = LoRa(mode=LoRa.LORAWAN)
 
 # create an ABP authentication params. Copy this from the TTN Device you created
 
-dev_addr = struct.unpack(">l", binascii.unhexlify('XX XX XX XX'.replace(' ','')))[0]
-nwk_swkey = binascii.unhexlify('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'.replace(' ',''))
-app_swkey = binascii.unhexlify('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'.replace(' ',''))
+dev_addr = struct.unpack(">l", binascii.unhexlify('XX XX XX XX'.replace(' ','')))[0]#Device Address
+nwk_swkey = binascii.unhexlify('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'.replace(' ',''))# Network Session Key
+app_swkey = binascii.unhexlify('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'.replace(' ',''))# App Session Key
 
 for channel in range(0, 72):
     lora.remove_channel(channel)
